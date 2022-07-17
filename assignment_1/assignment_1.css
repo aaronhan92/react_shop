@@ -1,0 +1,117 @@
+html,
+body,
+form {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f8f9;
+}
+#navbar {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+#navbar div.brand {
+  display: inline-block;
+  width: 6%;
+  text-align: center;
+}
+#navbar div.brand a img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+#navbar div.search {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+#navbar div.search form input {
+  border: none;
+  background-color: #f7f8f9;
+}
+#navbar div.profile {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+#navbar div.profile img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+#wrapper {
+  display: table;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+section.container {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  vertical-align: top;
+  margin: 0px 1.5%;
+}
+section.container h1.header {
+  font-weight: lighter;
+}
+section.container div.outer_box {
+  box-shadow: 2px 2px 2px 2px #eff0f1;
+  border-radius: 5px;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+section.container div.outer_box div.inner_box {
+  padding: 0px 15px;
+}
+section.container div.outer_box div.inner_box p.title {
+  font-weight: bold;
+  font-size: medium;
+}
+section.container div.outer_box div.inner_box p.description {
+  color: gray;
+  font-size: small;
+}
+section.container div.outer_box div.inner_box span.author {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: x-small;
+  color: white;
+}
+section.container div.outer_box div.inner_box span.days {
+  display: inline-block;
+  float: right;
+  padding: 8px;
+  font-size: smaller;
+}
+.bg_red {
+  background-color: rgb(139, 0, 0);
+}
+.bg_blue {
+  background-color: #3591fb;
+}
+.bg_green {
+  background-color: green;
+}
+.bg_purple {
+  background-color: #915aff;
+}
+.bg_darkorchid {
+  background-color: #c335fb;
+}
+.text_green {
+  color: rgb(0, 100, 0);
+}
+.text_red {
+  color: rgb(139, 0, 0);
+}
+.text_gray {
+  color: gray;
+}
+.text_purple {
+  color: #915aff;
+}
